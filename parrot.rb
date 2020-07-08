@@ -1,9 +1,4 @@
-def parrot(string)
-  if string = ""
-    puts "Squawk!"
-    return "Squawk!"
-  else
+def parrot(string = "Squawk")
     puts string
     return string
-  end
 end
